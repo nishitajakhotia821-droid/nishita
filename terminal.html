@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Terminal Guide | VS Code Learning Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code"></i>
+                VS Code Learning Hub
+            </a>
+
+            <nav class="navbar">
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="installation.html">Installation</a></li>
+
+                    <li><a href="interface.html">Interface</a></li>
+
+                    <li><a href="features.html">Features</a></li>
+
+                    <li><a href="extensions.html">Extensions</a></li>
+
+                    <li><a href="shortcuts.html">Shortcuts</a></li>
+
+                    <li><a href="terminal.html" class="active">Terminal</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span class="section-tag">Learning Module</span>
+
+            <h1>Integrated Terminal in VS Code</h1>
+
+            <p>
+                The integrated terminal in Visual Studio Code allows you to run
+                commands, manage projects, install packages, and execute programs
+                directly inside the editor without switching windows.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#overview" class="btn primary-btn">Start Learning</a>
+
+                <a href="#commands" class="btn secondary-btn">Common Commands</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="overview" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Overview</span>
+
+                <h2>What is the Terminal?</h2>
+
+                <p>
+                    The terminal is a command-line interface built into VS Code.
+                    It allows direct interaction with your operating system and
+                    development tools.
+                </p>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+
+                    <h3>Built-in Access</h3>
+
+                    <p>No need to open external terminal apps.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+
+                    <h3>Faster Workflow</h3>
+
+                    <p>Run commands instantly inside your editor.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+
+                    <h3>Multiple Terminals</h3>
+
+                    <p>Open and manage several terminals at once.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="commands" class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Commands</span>
+
+                <h2>Common Terminal Commands</h2>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-folder-open"></i>
+                    </div>
+
+                    <h3>Navigate Folders</h3>
+
+                    <p>
+                        cd folder-name → move into folder<br>
+                        cd .. → go back
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-list"></i>
+                    </div>
+
+                    <h3>List Files</h3>
+
+                    <p>
+                        dir (Windows) or ls (Mac/Linux)
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-box"></i>
+                    </div>
+
+                    <h3>Install Packages</h3>
+
+                    <p>
+                        npm install package-name<br>
+                        pip install package-name
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+
+                    <h3>Run Programs</h3>
+
+                    <p>
+                        node app.js<br>
+                        python app.py
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Shell Types</span>
+
+                <h2>Supported Terminals</h2>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-window-maximize"></i>
+                    </div>
+                    <h3>Command Prompt</h3>
+                    <p>Default Windows shell for basic commands.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+                    <h3>PowerShell</h3>
+                    <p>Advanced Windows automation shell.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Bash</h3>
+                    <p>Common shell for Linux and Mac systems.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Shell</h3>
+                    <p>Used for cloud-based development environments.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <h2>VS Code Learning Hub</h2>
+
+            <p>
+                Master the integrated terminal to speed up your development workflow
+                and manage projects efficiently without leaving VS Code.
+            </p>
+
+            <p class="copyright">
+                © 2026 VS Code Learning Hub. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | VS Code Learning Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code"></i>
+                VS Code Learning Hub
+            </a>
+
+            <nav class="navbar">
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="installation.html">Installation</a></li>
+
+                    <li><a href="interface.html">Interface</a></li>
+
+                    <li><a href="features.html">Features</a></li>
+
+                    <li><a href="extensions.html">Extensions</a></li>
+
+                    <li><a href="terminal.html">Terminal</a></li>
+
+                    <li><a href="debugging.html">Debugging</a></li>
+
+                    <li><a href="github.html">Git & GitHub</a></li>
+
+                    <li><a href="shortcuts.html">Shortcuts</a></li>
+
+                    <li><a href="faq.html">FAQ</a></li>
+
+                    <li><a href="interview-questions.html">Interview</a></li>
+
+                    <li><a href="quiz.html">Quiz</a></li>
+
+                    <li><a href="certificate.html">Certificate</a></li>
+
+                    <li><a href="resources.html">Resources</a></li>
+
+                    <li><a href="contact.html" class="active">Contact</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span class="section-tag">Get in Touch</span>
+
+            <h1>Contact Us</h1>
+
+            <p>
+                Have questions, feedback, or need help with VS Code? Reach out to us
+                anytime and we’ll get back to you as soon as possible.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="feature-grid">
+
+                <div class="feature-content">
+
+                    <h2>Send a Message</h2>
+
+                    <p>
+                        Fill out the form below and we will respond to your query shortly.
+                    </p>
+
+                    <form class="contact-form">
+
+                        <div class="form-group">
+
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your name">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Enter subject">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Write your message"></textarea>
+
+                        </div>
+
+                        <button type="button" class="btn primary-btn" onclick="sendMessage()">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <div class="feature-image">
+
+                    <img src="images/contact.png" alt="Contact Us">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Connect</span>
+
+                <h2>Other Ways to Reach Us</h2>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <h3>Email Support</h3>
+                    <p>support@vscodehub.com</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+
+                    <h3>WhatsApp Help</h3>
+                    <p>Quick response support chat</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+
+                    <h3>GitHub Issues</h3>
+                    <p>Report bugs or contribute</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <h2>VS Code Learning Hub</h2>
+
+            <p>
+                We’re here to help you learn and grow your coding skills with Visual Studio Code.
+            </p>
+
+            <p class="copyright">
+                © 2026 VS Code Learning Hub. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        function sendMessage() {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const subject = document.getElementById("subject").value;
+            const message = document.getElementById("message").value;
+
+            if (name && email && subject && message) {
+                alert("Message sent successfully!");
+            } else {
+                alert("Please fill all fields");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

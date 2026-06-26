@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Interface Guide | VS Code Learning Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code"></i>
+                VS Code Learning Hub
+            </a>
+
+            <nav class="navbar">
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="installation.html">Installation</a></li>
+
+                    <li><a href="interface.html" class="active">Interface</a></li>
+
+                    <li><a href="editing.html">Editing</a></li>
+
+                    <li><a href="extensions.html">Extensions</a></li>
+
+                    <li><a href="shortcuts.html">Shortcuts</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span class="section-tag">Learning Module</span>
+
+            <h1>Understanding the Visual Studio Code Interface</h1>
+
+            <p>
+                Before writing code efficiently, it is important to understand every
+                section of the Visual Studio Code window. This guide explains each
+                area of the interface and how it helps developers work faster.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#overview" class="btn primary-btn">
+                    Start Learning
+                </a>
+
+                <a href="#explorer" class="btn secondary-btn">
+                    Explore Components
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="overview" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Overview</span>
+
+                <h2>Visual Studio Code Interface Overview</h2>
+
+                <p>
+                    The Visual Studio Code interface is designed to provide quick
+                    access to files, tools, debugging features, settings, and code
+                    editing options. Every part of the interface has a specific
+                    purpose that improves productivity.
+                </p>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-window-maximize"></i>
+                    </div>
+
+                    <h3>Modern Layout</h3>
+
+                    <p>
+                        A clean and customizable interface allows developers to
+                        organize their workspace according to different programming
+                        tasks and projects.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+
+                    <h3>Fully Customizable</h3>
+
+                    <p>
+                        Panels, sidebars, themes, fonts, icons, and layouts can all
+                        be customized to match your workflow.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+                    <h3>Developer Friendly</h3>
+
+                    <p>
+                        Built-in tools such as Git integration, debugging,
+                        extensions, and terminals are easily accessible from the
+                        interface.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Interface Component 01</span>
+
+                <h2>Title Bar</h2>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <div class="feature-content">
+
+                    <h3>What is the Title Bar?</h3>
+
+                    <p>
+                        The Title Bar is located at the very top of the Visual Studio
+                        Code window. It displays the currently opened project,
+                        workspace, or file name along with the application title.
+                    </p>
+
+                    <h4>Main Functions</h4>
+
+                    <ul class="feature-list">
+
+                        <li>Displays current project name</li>
+
+                        <li>Shows opened file information</li>
+
+                        <li>Contains minimize, maximize and close buttons</li>
+
+                        <li>Displays workspace status</li>
+
+                        <li>Supports dragging the application window</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="feature-image">
+
+                    <img src="images/title-bar.png" alt="VS Code Title Bar">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Interface Component 02</span>
+
+                <h2>Menu Bar</h2>
+
+            </div>
+
+            <div class="feature-grid reverse">
+
+                <div class="feature-image">
+
+                    <img src="images/menu-bar.png" alt="VS Code Menu Bar">
+
+                </div>
+
+                <div class="feature-content">
+
+                    <h3>Purpose of the Menu Bar</h3>
+
+                    <p>
+                        The Menu Bar contains all major commands and settings of
+                        Visual Studio Code. It gives access to project management,
+                        editing, navigation, debugging, terminal, and help options.
+                    </p>
+
+                    <div class="cards-grid mini-grid">
+
+                        <div class="small-card">
+
+                            <i class="fa-solid fa-folder-open"></i>
+
+                            <h4>File</h4>
+
+                            <p>Create, open and save files or folders.</p>
+
+                        </div>
+
+                        <div class="small-card">
+
+                            <i class="fa-solid fa-pen"></i>
+
+                            <h4>Edit</h4>
+
+                            <p>Undo, redo, copy, paste and find commands.</p>
+
+                        </div>
+
+                        <div class="small-card">
+
+                            <i class="fa-solid fa-eye"></i>
+
+                            <h4>View</h4>
+
+                            <p>Show or hide interface components.</p>
+
+                        </div>
+
+                        <div class="small-card">
+
+                            <i class="fa-solid fa-terminal"></i>
+
+                            <h4>Terminal</h4>
+
+                            <p>Open integrated terminal and run commands.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Interface Component 03</span>
+
+                <h2>Activity Bar</h2>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <div class="feature-content">
+
+                    <h3>What is the Activity Bar?</h3>
+
+                    <p>
+                        The Activity Bar is positioned vertically on the left side
+                        of Visual Studio Code. It provides quick navigation to major
+                        development tools.
+                    </p>
+
+                    <div class="cards-grid">
+
+                        <div class="card">
+
+                            <i class="fa-solid fa-folder-tree"></i>
+
+                            <h4>Explorer</h4>
+
+                            <p>Browse project folders and files.</p>
+
+                        </div>
+
+                        <div class="card">
+
+                            <i class="fa-solid fa-magnifying-glass"></i>
+
+                            <h4>Search</h4>
+
+                            <p>Find text across the entire project.</p>
+
+                        </div>
+
+                        <div class="card">
+
+                            <i class="fa-solid fa-code-branch"></i>
+
+                            <h4>Source Control</h4>
+
+                            <p>Manage Git repositories and commits.</p>
+
+                        </div>
+
+                        <div class="card">
+
+                            <i class="fa-solid fa-puzzle-piece"></i>
+
+                            <h4>Extensions</h4>
+
+                            <p>Install new tools and language support.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="feature-image">
+
+                    <img src="images/activity-bar.png" alt="VS Code Activity Bar">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="explorer" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Interface Component 04</span>
+
+                <h2>Explorer Panel</h2>
+
+                <p>
+                    The Explorer is one of the most frequently used sections in
+                    Visual Studio Code. It displays your project's folder structure
+                    and allows you to manage files efficiently.
+                </p>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <div class="feature-content">
+
+                    <h3>Explorer Features</h3>
+
+                    <ul class="feature-list">
+
+                        <li>Create new files and folders</li>
+
+                        <li>Rename project files</li>
+
+                        <li>Delete unnecessary files</li>
+
+                        <li>Move files between folders</li>
+
+                        <li>Open multiple files quickly</li>
+
+                        <li>View complete project hierarchy</li>
+
+                        <li>Access recently opened folders</li>
+
+                        <li>Manage large projects easily</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="feature-image">
+
+                    <img src="images/explorer-panel.png" alt="VS Code Explorer">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Interface Component 05</span>
+
+                <h2>Editor Area</h2>
+
+                <p>
+                    The Editor Area is the main workspace where programmers write,
+                    edit, and manage their source code. Multiple files can be opened
+                    simultaneously using tabs, making it easy to switch between
+                    different parts of a project.
+                </p>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <div class="feature-image">
+
+                    <img src="images/editor-area.png" alt="VS Code Editor Area">
+
+                </div>
+
+                <div class="feature-content">
+
+                    <h3>Main Features</h3>
+
+                    <ul class="feature-list">
+
+                        <li>Write and edit source code.</li>
+
+                        <li>Open multiple files using tabs.</li>
+
+                        <li>Split editor into multiple windows.</li>
+
+                        <li>Automatic syntax highlighting.</li>
+
+                        <li>Code suggestions with IntelliSense.</li>
+
+                        <li>Error highlighting while typing.</li>
+
+                        <li>Code folding for better readability.</li>
+
+                        <li>Quick navigation between files.</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Interface Component 06</span>
+
+                <h2>Side Panel</h2>
+
+                <p>
+                    The Side Panel changes according to the option selected from the
+                    Activity Bar. It displays project files, search results, Git
+                    changes, debugging tools, or installed extensions.
+                </p>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-folder-open"></i>
+                    </div>
+
+                    <h3>Explorer View</h3>
+
+                    <p>
+                        Displays all folders, files, and project hierarchy for quick
+                        access.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <h3>Search View</h3>
+
+                    <p>
+                        Search text, variables, functions, or keywords throughout
+                        the project instantly.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-code-branch"></i>
+                    </div>
+
+                    <h3>Git View</h3>
+
+                    <p>
+                        Track file modifications, commits, branches, and repository
+                        status without leaving VS Code.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                    </div>
+
+                    <h3>Extensions View</h3>
+
+                    <p>
+                        Search, install, enable, disable, or update Visual Studio
+                        Code extensions.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Interface Component 07</span>
+
+                <h2>Panel</h2>
+
+            </div>
+
+            <div class="feature-grid reverse">
+
+                <div class="feature-content">
+
+                    <h3>Bottom Panel</h3>
+
+                    <p>
+                        The Panel is located at the bottom of Visual Studio Code. It
+                        provides access to the integrated terminal, debugging
+                        console, output messages, and problem reports.
+                    </p>
+
+                    <div class="cards-grid mini-grid">
+
+                        <div class="small-card">
+
+                            <i class="fa-solid fa-terminal"></i>
+
+                            <h4>Terminal</h4>
+
+                            <p>Run commands without leaving the editor.</p>
+
+                        </div>
+
+                        <div class="small-card">
+
+                            <i class="fa-solid fa-bug"></i>
+
+                            <h4>Debug Console</h4>
+
+                            <p>Displays debugging information.</p>
+
+                        </div>
+
+                        <div class="small-card">
+
+                            <i class="fa-solid fa-circle-exclamation"></i>
+
+                            <h4>Problems</h4>
+
+                            <p>Lists coding errors and warnings.</p>
+
+                        </div>
+
+                        <div class="small-card">
+
+                            <i class="fa-solid fa-list"></i>
+
+                            <h4>Output</h4>
+
+                            <p>Displays logs generated by extensions.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="feature-image">
+
+                    <img src="images/panel.png" alt="VS Code Panel">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Interface Component 08</span>
+
+                <h2>Status Bar</h2>
+
+                <p>
+                    The Status Bar appears at the bottom of the VS Code window and
+                    provides useful information about the current workspace and
+                    active file.
+                </p>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <div class="feature-image">
+
+                    <img src="images/status-bar.png" alt="VS Code Status Bar">
+
+                </div>
+
+                <div class="feature-content">
+
+                    <h3>Information Displayed</h3>
+
+                    <ul class="feature-list">
+
+                        <li>Programming language.</li>
+
+                        <li>Current Git branch.</li>
+
+                        <li>Line and column number.</li>
+
+                        <li>Indentation size.</li>
+
+                        <li>UTF encoding.</li>
+
+                        <li>Line ending format.</li>
+
+                        <li>Extension notifications.</li>
+
+                        <li>Error and warning counters.</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Interface Summary</span>
+
+                <h2>Complete VS Code Layout</h2>
+
+                <p>
+                    Understanding every part of the Visual Studio Code interface
+                    helps developers navigate projects quickly, write code more
+                    efficiently, and use the editor's powerful built-in tools with
+                    confidence.
+                </p>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-window-maximize"></i>
+                    </div>
+                    <h3>Title Bar</h3>
+                    <p>Displays the current workspace and application controls.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <h3>Menu Bar</h3>
+                    <p>Provides access to every command available in VS Code.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-icons"></i>
+                    </div>
+                    <h3>Activity Bar</h3>
+                    <p>Quickly switch between Explorer, Search, Git and Extensions.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-file-code"></i>
+                    </div>
+                    <h3>Editor</h3>
+                    <p>The main area used for writing and editing source code.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+                    <h3>Panel</h3>
+                    <p>Contains Terminal, Problems, Output and Debug Console.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3>Status Bar</h3>
+                    <p>Shows useful project and editor information in real time.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <h2>VS Code Learning Hub</h2>
+
+            <p>
+                Learn Visual Studio Code from beginner to advanced through detailed
+                tutorials, practical examples, and interactive guides.
+            </p>
+
+            <p class="copyright">
+                © 2026 VS Code Learning Hub. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

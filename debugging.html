@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Debugging Guide | VS Code Learning Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code"></i>
+                VS Code Learning Hub
+            </a>
+
+            <nav class="navbar">
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="installation.html">Installation</a></li>
+
+                    <li><a href="interface.html">Interface</a></li>
+
+                    <li><a href="features.html">Features</a></li>
+
+                    <li><a href="extensions.html">Extensions</a></li>
+
+                    <li><a href="shortcuts.html">Shortcuts</a></li>
+
+                    <li><a href="terminal.html">Terminal</a></li>
+
+                    <li><a href="debugging.html" class="active">Debugging</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span class="section-tag">Learning Module</span>
+
+            <h1>Debugging in Visual Studio Code</h1>
+
+            <p>
+                Debugging helps you find and fix errors in your code. VS Code
+                provides a powerful built-in debugger that lets you run code step
+                by step, inspect variables, and identify issues quickly.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#overview" class="btn primary-btn">Start Debugging</a>
+
+                <a href="#tools" class="btn secondary-btn">Debug Tools</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="overview" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Overview</span>
+
+                <h2>What is Debugging?</h2>
+
+                <p>
+                    Debugging is the process of identifying, analyzing, and fixing
+                    errors (bugs) in your code to ensure your program runs correctly.
+                </p>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-bug"></i>
+                    </div>
+
+                    <h3>Find Errors</h3>
+
+                    <p>Detect mistakes in your code logic or syntax.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <h3>Inspect Code</h3>
+
+                    <p>Check variable values and execution flow.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+
+                    <h3>Fix Issues</h3>
+
+                    <p>Correct errors and improve code performance.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="tools" class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Debug Tools</span>
+
+                <h2>VS Code Debugger Features</h2>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <div class="feature-content">
+
+                    <h3>Powerful Debugging Tools</h3>
+
+                    <ul class="feature-list">
+
+                        <li>Breakpoints to pause execution</li>
+                        <li>Step Over, Step Into, Step Out controls</li>
+                        <li>Watch variables in real time</li>
+                        <li>Call stack inspection</li>
+                        <li>Debug console output</li>
+                        <li>Exception handling</li>
+                        <li>Inline variable values</li>
+                        <li>Launch configurations</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="feature-image">
+
+                    <img src="images/debugging.png" alt="VS Code Debugging">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Steps</span>
+
+                <h2>How to Debug Code</h2>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-circle-dot"></i>
+                    </div>
+
+                    <h3>Set Breakpoint</h3>
+
+                    <p>Click next to a line number to pause execution.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+
+                    <h3>Start Debugging</h3>
+
+                    <p>Run your program in debug mode.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+
+                    <h3>Step Through</h3>
+
+                    <p>Execute code line by line to track behavior.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+
+                    <h3>Fix & Test</h3>
+
+                    <p>Correct errors and re-run your program.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <h2>VS Code Learning Hub</h2>
+
+            <p>
+                Learn debugging techniques to efficiently find and fix errors in your
+                programs using Visual Studio Code tools.
+            </p>
+
+            <p class="copyright">
+                © 2026 VS Code Learning Hub. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

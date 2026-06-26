@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Git & GitHub Guide | VS Code Learning Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code"></i>
+                VS Code Learning Hub
+            </a>
+
+            <nav class="navbar">
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="installation.html">Installation</a></li>
+
+                    <li><a href="interface.html">Interface</a></li>
+
+                    <li><a href="features.html">Features</a></li>
+
+                    <li><a href="extensions.html">Extensions</a></li>
+
+                    <li><a href="shortcuts.html">Shortcuts</a></li>
+
+                    <li><a href="terminal.html">Terminal</a></li>
+
+                    <li><a href="debugging.html">Debugging</a></li>
+
+                    <li><a href="github.html" class="active">Git & GitHub</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span class="section-tag">Learning Module</span>
+
+            <h1>Git & GitHub in Visual Studio Code</h1>
+
+            <p>
+                Git and GitHub integration in VS Code allows developers to track
+                changes, collaborate with teams, and manage code versions efficiently
+                without leaving the editor.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#overview" class="btn primary-btn">Start Learning</a>
+
+                <a href="#commands" class="btn secondary-btn">Git Commands</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="overview" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Overview</span>
+
+                <h2>What is Git & GitHub?</h2>
+
+                <p>
+                    Git is a version control system that tracks code changes, while
+                    GitHub is a cloud platform that hosts Git repositories for
+                    collaboration.
+                </p>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-code-branch"></i>
+                    </div>
+
+                    <h3>Version Control</h3>
+
+                    <p>Track every change in your project over time.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+
+                    <h3>Collaboration</h3>
+
+                    <p>Work with teams on the same project easily.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+
+                    <h3>Cloud Storage</h3>
+
+                    <p>Store your projects securely on GitHub.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="commands" class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Git Commands</span>
+
+                <h2>Common Git Commands</h2>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-folder-open"></i>
+                    </div>
+
+                    <h3>Initialize Repo</h3>
+
+                    <p>git init → Create a new Git repository</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <h3>Add Files</h3>
+
+                    <p>git add . → Add all changes to staging area</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-save"></i>
+                    </div>
+
+                    <h3>Commit</h3>
+
+                    <p>git commit -m "message" → Save changes</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-upload"></i>
+                    </div>
+
+                    <h3>Push</h3>
+
+                    <p>git push → Upload code to GitHub</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>VS Code Integration</span>
+
+                <h2>Using Git in VS Code</h2>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <div class="feature-content">
+
+                    <h3>Built-in Git Tools</h3>
+
+                    <ul class="feature-list">
+
+                        <li>Source Control panel</li>
+                        <li>Commit changes visually</li>
+                        <li>Branch switching</li>
+                        <li>Merge conflict resolution</li>
+                        <li>Push & pull directly</li>
+                        <li>Git history tracking</li>
+                        <li>GitLens extension support</li>
+                        <li>GitHub authentication</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="feature-image">
+
+                    <img src="images/github.png" alt="Git and GitHub in VS Code">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Workflow</span>
+
+                <h2>Basic Git Workflow</h2>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-1"></i>
+                    </div>
+
+                    <h3>Make Changes</h3>
+
+                    <p>Edit or create files in your project.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-2"></i>
+                    </div>
+
+                    <h3>Stage Changes</h3>
+
+                    <p>Add files to staging area.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-3"></i>
+                    </div>
+
+                    <h3>Commit</h3>
+
+                    <p>Save changes with a message.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-4"></i>
+                    </div>
+
+                    <h3>Push</h3>
+
+                    <p>Upload changes to GitHub repository.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <h2>VS Code Learning Hub</h2>
+
+            <p>
+                Learn Git and GitHub integration in Visual Studio Code for efficient
+                version control and team collaboration.
+            </p>
+
+            <p class="copyright">
+                © 2026 VS Code Learning Hub. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
