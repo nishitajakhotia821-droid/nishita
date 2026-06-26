@@ -12,7 +12,7 @@ CSS VARIABLES
     --primary-dark: #005A9E;
     --secondary: #0F172A;
     --light: #F8FAFC;
-    --white: #ffffff;
+    --white: #f7f7f7;
     --text: #334155;
     --gray: #64748b;
     --border: #dbe4ee;
@@ -44,7 +44,7 @@ body {
 
     font-family: 'Poppins', sans-serif;
 
-    background: #f4f8fb;
+    background: #b6b8b9;
 
     color: var(--text);
 
